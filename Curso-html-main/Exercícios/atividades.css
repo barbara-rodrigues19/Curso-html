@@ -1,0 +1,60 @@
+.caixa {
+    /*classe estrututal*/
+    width: 20%;
+    height: 40vh;
+    /* altura da caixa*/
+    margin: 10px;
+    float: left;
+    /*caixa flutuante*/
+    padding: 20px;
+    /*espaçamento*/
+}
+
+.caixa-azul {
+    /*modificador*/
+    background-color: rgb(37, 82, 189);
+    border: 5px solid rgb(106, 255, 0);
+}
+
+.caixa-roxa {
+    /*modificador*/
+    background-color: rgb(147, 75, 199);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.caixa-rosa {
+    /*modificador*/
+    background-color: rgb(231, 52, 207);
+    border: 5px dotted rgb(149, 0, 107);
+}
+
+.secoes {
+    /*determinar as secoes*/
+    border-bottom: 2px dashed rgb(120, 43, 120);
+    min-height: 60vh;
+}
+
+.campo {
+    padding: 5px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    padding: 5px;
+    background-color: purple;
+    min-width: 180px;
+    border: 3px solid rgb(245, 4, 149);
+    border-radius:5px;
+}
+
+.formulario {
+    margin-left: 50%
+}
+
+.imagem-formulario {
+    margin-left:5%;
+    width: 100px;
+    height: 100px;
+}
