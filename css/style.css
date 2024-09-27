@@ -42,3 +42,50 @@ font-style: oblique;
     text-transform: capitalize;
     text-transform: lowercase;
 }
+
+.link {
+    text-decoration: overline;
+    text-decoration-color: pink;
+    /*border: 1px solid black;*/
+    /*padding:5px;*/
+    text-decoration-style: wavy;
+}
+
+.item-lista{
+    list-style: none;
+}
+
+.caixa {
+    background-color: blue;
+    height:100px;
+    width: 100px;
+    border: 2px solid black;
+    color: white;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: purple;
+    padding: 30px;
+}
+
+.menu a:hover {
+    background-color: bisque;
+}
