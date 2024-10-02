@@ -131,3 +131,56 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.menu-grudado {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.menu-grudado li {
+list-style: none;
+}
+
+.menu-grudado a{
+    text-decoration: solid;
+    color:rgb(230, 10, 146);
+    padding: 20px;
+}
+
+.menu-grudado a:hover{
+    background-color: aquamarine;
+}
+
+.header-grudado {
+    display: flex;
+    position:sticky;
+    top:0;
+    justify-content:space-between;
+    flex-direction: row;
+}
+/*contato*/
+.contato {
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+.contato svg {
+    background-color: green;
+}
+/*Rodapé*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+
+footer li {
+    list-style: none;
+    font-size: 20px;
